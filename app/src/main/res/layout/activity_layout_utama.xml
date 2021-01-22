@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/btn_back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/btn_back2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_sebelumtidur2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_sebelumtidur2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:id="@+id/btn_banguntidur2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_banguntidur2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:id="@+id/btn_belajar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_belajar2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="370dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:id="@+id/btn_berpakaian2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_berpakaian2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="540dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:id="@+id/btn_masukpasar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_masukpasar2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"/>
+
+    <ImageView
+        android:id="@+id/btn_naikkendaraan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_naikkendaraan2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"/>
+
+    <ImageView
+        android:id="@+id/btn_ortu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_ortu2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="370dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"/>
+
+    <ImageView
+        android:id="@+id/btn_musibah2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_musibah2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="540dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
